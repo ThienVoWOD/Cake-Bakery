@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Medium.woff2") format("woff2"),
+    url("../fonts/GoogleSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Bold.woff2") format("woff2"),
+    url("../fonts/GoogleSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Italic.woff2") format("woff2"),
+    url("../fonts/GoogleSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Google Sans";
+  src: url("../fonts/GoogleSans-Regular.woff2") format("woff2"),
+    url("../fonts/GoogleSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+body {
+  font-family: "Google Sans", sans-serif;
+}
+
+.login-page,
+.register-page {
+  background-color: #eee;
+}
+
+.login-box {
+  width: 320px;
+}
+
+.register-box {
+  width: 400px;
+}
+
+.login-box-body,
+.register-box-body {
+  border: 1px solid #ddd;
+  padding: 18px;
+  border-radius: 3px;
+}
+
+label {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .main-header .navbar .dropdown-menu li a {
+    color: #000000 !important;
+  }
+}
+
+.user-panel .info {
+  position: relative;
+  padding-left: 8px;
+  left: 0;
+}
